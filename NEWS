@@ -1,0 +1,18 @@
+0.50.1
+     * you can select background color: 'decurs RoyalBlue1'. Note that it
+       _DOES NOT_ affect color of cursor. use gcolorsel or xcolorsel to look
+       for good colors.
+
+0.50.0
+     * There is now cursor -selection window. Press 'Sel'.
+     * made glyph drawing more modular.
+     * fixed repainting bugs.
+     * fixed couple segfaults. (unlikely to happen.. but ohwell)
+     * Early support for pixmaps in toolbar.
+     * indentation madness. emacs at defaults sucks.
+
+0.42.2
+      * bugfix for right mouseclick
+      * help-box for keys
+      * command-line simpolifications for compiling.
+0.42.1-alpha

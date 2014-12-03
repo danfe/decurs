@@ -1,0 +1,11 @@
+2003-05-03  Pasi Savolainen  <psavo@iki.fi>
+
+	* 0.55.1
+	* Ported to GTK2
+	* better configure script, uses pkg-config
+
+2002-05-04  Pasi Savolainen  <pvsavola@cc.hut.fi>
+
+	* 0.50.1
+	* added background color configurability. works as: 'decurs RoyalBlue1'.
+
