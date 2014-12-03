@@ -16,7 +16,7 @@ private:
 public:
 	CppString();
 	CppString(const char *str);
-	CppString(CppString &str);
+	CppString(const CppString &str);
 	CppString(int length);
 	~CppString();
 	char* 	c_str(void) { return(our_string); };
@@ -87,9 +87,9 @@ public:
 		if(our_string) return our_string[Length()-1];
 		else return 0;
 	}
-	friend std::ostream& operator<<(std::ostream &cou, CppString &str);
+	friend std::ostream& operator<<(std::ostream &cou, const CppString &str);
 };
 
-// friend ostream& operator<<(ostream &cou, CppString &str);
+ std::ostream& operator<<(std::ostream &cou, const CppString &str);
 
 #endif // CppString_H_INCLUDED
